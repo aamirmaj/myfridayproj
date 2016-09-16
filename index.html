@@ -1,13 +1,12 @@
 <!doctype html>
-<html>
-    <head>
-        <title>Backbone Single Page App</title>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
-        <script src="app.js"></script>
-    </head>
-    <body>
-        Starting app...
-    </body>
+<html data-ng-app="singlePageApp">
+  <head>
+    <title>Angular Single Page App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular-route.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body data-ng-view="">
+    Please wait...
+  </body>
 </html>
