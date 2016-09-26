@@ -1,2 +1,2 @@
-var x = window.open("http://www.google.com");
-x.open();
+var x = document.querySelector('h1');
+myHeading.textContent = 'wat';
